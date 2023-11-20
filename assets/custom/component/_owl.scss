@@ -1,0 +1,19 @@
+.create_order {
+    .owl-nav {
+        width: 100vw;
+        position: absolute;
+        top: 40%;
+        font-size: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 16px;
+        color: #aaa;
+        opacity: 0.5;
+    }
+    .owl-theme .owl-nav {
+        margin-top: 0;
+    }
+    .owl-prev,.owl-next {
+        pointer-events: none;
+    }
+}

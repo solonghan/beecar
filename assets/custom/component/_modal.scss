@@ -1,0 +1,14 @@
+.dialogbox .modal-dialog .commonly_modal {
+    max-width: 350px;
+    .listview{
+        border-bottom: unset;
+        margin-bottom: 20px;
+        > li {
+            padding: 0;
+        }
+    }
+    .modal-header {
+        padding: 20px 0;
+        font-size: 18px;
+    }
+}

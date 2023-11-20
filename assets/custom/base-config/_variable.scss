@@ -1,0 +1,77 @@
+
+//font-size
+$font-size-base : 16px;
+
+$h1-font-size: $font-size-base * 2.5 !important; //40px
+$h2-font-size: $font-size-base * 2 !important; //32px
+$h3-font-size: $font-size-base * 1.625 !important; //26px
+$h4-font-size: $font-size-base * 1.5 !important; //24px
+$h5-font-size: $font-size-base * 1.125 !important; //18px
+$h6-font-size: $font-size-base !important; //16px
+$font-size-s: 14px;
+
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  s: $font-size-s
+);
+
+// font-weight
+$font-weight-light: 400;
+$font-weight-normal: 500;
+$font-weight-bold: 700;
+
+$font-weight: (
+  light: $font-weight-light,
+  normal: $font-weight-normal,
+  bold: $font-weight-bold
+);
+
+// color
+
+$primary: #1E74FD !important;
+$success : #137D9E !important;
+$info: #787878 !important;
+$info-secondary: #F6F6F6 !important;
+$gray: #F7F7F7 !important;
+$unsuccess: #8F332D !important;
+$dark: #000 !important;
+$brown: #A76D16 !important;
+$light: #fff !important;
+$notdispatched: #C9524A !important; //未派遣
+$undertaken: #F39E1D !important; //待承接
+$dispatched: #24A539 !important; //已派遣、已委託 (已派遣完成)
+$processing: #A731D0 !important; //前往起點、抵達起點、開始行程 (進行中)
+$status: #A1A1A2 !important; //狀態
+$color: (
+  primary: $primary,
+  success: $success,
+  info: $info,
+  info-secondary: $info-secondary,
+  gray: $gray,
+  unsuccess: $unsuccess,
+  dark: $dark,
+  brown: $brown,
+  light: $light,
+  notdispatched: $notdispatched,
+  undertaken: $undertaken,
+  dispatched: $dispatched,
+  processing: $processing,
+  status: $status
+);
+
+
+$spacer: 10px;
+
+//text-align
+
+$text-align: (
+  right: right,
+  left: left,
+  center: center
+);

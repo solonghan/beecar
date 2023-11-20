@@ -1,0 +1,26 @@
+.notification-fifter{
+    color: #000000;
+    #superFifterCustom{
+        &:checked{
+            color: aqua;
+        }
+    }
+    .noteCheckBox .custom-control-label:before {
+        border-radius: 5px;
+    }
+    .noteCheckBox .custom-control-input:checked ~ .custom-control-label:before {
+        border-radius: 5px;
+    }
+    label{
+        padding-top: 0 !important;
+    }
+    .filter-results-header{
+        .delete{
+            top: 10px;
+            right: 10px;
+        }
+        span{
+            margin-left: 3px;
+        }
+    }
+}

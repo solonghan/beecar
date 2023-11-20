@@ -1,0 +1,18 @@
+.set-search {
+    .searchbox .form-control {
+        padding: 0 16px 0 11px;
+    }
+}
+
+.set {
+    .section {
+        .section-title {
+            padding-right: 0;
+            padding-left: 0;
+            font-size: 20px;
+        }
+    }
+    .active {
+        color: #000 !important;
+    }
+}

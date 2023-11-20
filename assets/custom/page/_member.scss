@@ -1,0 +1,62 @@
+.member {
+    .wide-block {
+        border-top: unset;
+        border-bottom: unset;
+    }
+}
+.member-verification {
+    .section-title {
+        background: #F7F7F7;
+    }
+    .simple-listview {
+        li > .item {
+            width: 100%;
+            .in {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+.add-friend {
+    .wide-block {
+        background: transparent;
+    }
+}
+.success {
+    color: $success;
+}
+.icon-edit {
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+.intruction {
+    .intruction-title {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    p {
+        margin-bottom: 15px;
+    }
+}
+.transaction {
+    margin-bottom: 127px;
+}
+.transaction-list {
+    li {
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 400;
+        .list-title {
+            margin-right: 28px;
+            font-weight: 500;
+        }
+        .list-title-mr60 {
+            margin-right: 60px;
+            font-weight: 500;
+        }
+    }
+}

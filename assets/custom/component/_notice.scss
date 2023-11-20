@@ -1,0 +1,21 @@
+.notice {
+    .unread {
+        background: #ECF4FF;
+    }
+    .read {
+        background: $light;
+        color: $info;
+    }
+    .time {
+        color: $info;
+        font-size: 12px;
+        line-height: 2;
+    }
+    .listview > li{
+        flex-direction: column;
+        align-items: flex-start;
+        span {
+            color: $info;
+        }
+    }
+}

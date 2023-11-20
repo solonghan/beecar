@@ -1,0 +1,170 @@
+.form-group {
+    text-align: left;
+    position: relative;
+    input[type="button"] {
+        text-align: left;
+    }
+    .bind {
+        position: absolute;
+        right: 0;
+        top: 26px;
+        color:$success;
+    }
+}
+.form-multiple {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    .input-wrapper {
+        width: 48%;
+    }
+    .input-textarea {
+        width: 100%;
+        padding-top: 8px;
+    }
+}
+.delete {
+    display: flex;
+    align-items: center;
+    font-size: $font-size-s;
+    color: #B25852;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    z-index: 10;
+}
+.delete-icon {
+    color: #787878;
+    display: flex;
+    align-items: center;
+}
+textarea {
+    height: 80px !important;
+}
+
+.datepick, .timepick {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filtergroup {
+    margin-bottom: 48px;
+}
+
+.filter-input input {
+    margin-bottom: 11px;
+}
+
+.filter-results {
+    .filter-results-header {
+        position: relative;
+    }
+    ul {
+        list-style: none;
+        padding: 10px;
+        border: 1px solid #aaa;
+        border-radius: 6px;
+        background: #fff;
+        li {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.input-list {
+    .custom-control-label {
+        padding: 16px 20px 16px 54px;
+    }
+}
+.input-list {
+    .custom-control:after {
+        height: 0.5px;
+    }
+}
+.multi-level.active {
+    ul {
+        padding-bottom: 0;
+    }
+}
+.link-listview {
+    .dismiss {
+        a {
+            padding: 0;
+            min-height: auto;
+            &::after {
+                background-image: none;
+            }
+            span {
+                color: $info;
+                margin-left: 7px;
+            }
+        }
+    }
+}
+.bottomMenu-button {
+    bottom: 50px;
+    background: none;
+}
+.alertText {
+    color: #8F332D;
+    padding: 8px 0;
+    font-size: 16px;
+}
+.form-group.basic  {
+    .form-control {
+        color: #787878;
+    }
+}
+//行程交易紀錄
+.link-listview > li .item .in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    .text-muted {
+        font-size: 16px;
+        color: #000 !important;
+        .discount {
+            color: #CF0000;
+        }
+    }
+}
+
+.listview > li footer {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+.listview {
+    .text-muted {
+        font-size: 14px;
+    }
+}
+.notice {
+    li {
+        border-bottom: .5px solid #CED4DA;
+    }
+}
+.form-control:disabled {
+    color: #000;
+}
+
+.form-group.basic .form-control {
+    color: #000;
+}
+
+
+//group-set-notcreator
+
+.group .custom-listview {
+    li {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 36px 8px 16px;
+        line-height: 1.8;
+    }
+}

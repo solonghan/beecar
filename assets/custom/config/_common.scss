@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+
+* {
+    font-family: 'Noto Sans TC';
+}
+
+a {
+    color: #000;
+}
+p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+}
+body {
+    font-size: $font-size-base;
+}
+
+.appHeader {
+    .pageTitle {
+        font-size: 18px;
+    }
+}
+
+.section-custom {
+    padding: 0 16px;
+}
+
+.appBottomMenu {
+    .active {
+        color: $primary;
+    }
+}
+.appBottomMenu .item {
+    font-size: 13px;
+}
+
+
+
+//checkbox
+// .custom-control {
+//     font-size: $h5-font-size;
+//     margin-bottom: 16px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     .custom-control-label {
+//         &::before {
+//             margin-top: 5px;
+//         }
+//         &::after {
+//             margin-top: 8px;
+//         }
+//     }
+// }
+
+
+//botton
+.btn {
+    font-size: $h5-font-size;
+    height: 46px;
+}
+.btn-active {
+    background: $primary;
+    color: #fff;
+}
+.btn:active {
+    background: #DDEAFF;
+    color: $primary;
+    border: 1px solid $primary;
+}
+.resend-verification {
+    position: fixed;
+    padding: 0 16px;
+    left: 0;
+    right: 0;
+    bottom: 88px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//form
+form {
+    input::placeholder {
+        color: #B6B6B6;
+    }
+}
+.badge {
+    font-size: 13px;
+    width: auto;
+}
+.form-group .label {
+    font-size: 16px;
+    color: #000;
+}
+.form-group.basic {
+    .form-control {
+        font-size: 16px;
+    }    
+}
+//下拉選單箭頭
+.custom-select {
+    appearance: auto;
+}
+
+//appCapsule
+#appCapsule-no-header {
+    padding: 0 0 56px;
+}
+
+// list
+
+.input-list {
+    .custom-control::after {
+        margin-left: 0px;
+    }
+}
+.listview {
+    border-top: unset;
+    li:after {
+        height: 0.3px;
+    }
+}
+.multi-level {
+    ul {
+        li:after {
+            height: 0.3px;
+        }
+    }
+}
+.list-icon-style {
+    border-radius: 50px;
+    .list-icon {
+        width: 19.5px;
+        height: 19.5px;
+    }
+}
+
+.wide-block {
+    border-top: unset;
+    border-bottom: .2px solid #E1E1E1;
+}
+// dialogbox
+// .dialogbox .modal-dialog .modal-content .modal-header {
+//     padding: 50px 0 36px;
+// }
+// .dialogbox .modal-dialog .modal-content .custom-modal-header {
+//     padding: 50px 62px 36px;
+//     .modal-title {
+//         font-size: 16px;
+//     }
+// }
+.dialogbox .modal-dialog .modal-content {
+    .modal-header {
+        padding: 50px 0 36px;
+    }
+    .custom-modal-header {
+        padding: 50px 62px 36px;
+        .modal-title {
+            font-size: 16px;
+        }
+    }
+    .custom-icon-modal-header {
+        padding: 20px 20px 10px 20px;
+    }
+}
+
+//detail-page
+.detail-page {
+    .card {
+        margin-bottom: 122px;
+    }
+}
+
+//border
+.border-right {
+    border-right: 1px solid $info;
+}
+
+//header tag
+.nav-tabs.lined .nav-item .nav-link {
+    font-size: 16px;
+}
+//carousel
+.carousel-custom {
+    width: calc(100% + 21px);
+    margin-left: -21px;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding-bottom: 0;
+}
+//分隔線
+.divider {
+    height: 2px;
+}
+
+.fix-btn {
+    bottom: 65px;
+}
+
+//light dialogbox 
+.light-dialog {
+    color: #000;
+    padding: 35px 18px !important;
+    margin-bottom: 0 !important;
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            display: flex;
+            justify-content: space-between;
+            line-height: 2;
+            .dialog-content:last-child {
+                width: 90px;
+                text-align: left;
+            }
+        }
+    }
+}
+
+//通知
+.notification-dialog.android-style  {
+    .notification-header {
+        .in {
+            strong {
+                font-size: 16px;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+    .notification-content {
+        font-size: 16px;
+        .subtitle {
+            font-size: 18px;
+        }
+    }
+}
+
+// 首頁標題
+.header-large-title {
+    h1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+
+// notification-addfilter timepicker
+.daterangepicker.show-calendar .ranges {
+    margin-top: 0 !important;
+}
+.daterangepicker select.hourselect, 
+.daterangepicker select.minuteselect, 
+.daterangepicker select.secondselect, 
+.daterangepicker select.ampmselect {
+    width: 45% !important;
+    font-size: 16px !important;
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Beecar",
+    "short_name": "Beecar",
+    "start_url": "./home/login",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "./assets/custom/PWA/bee192x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./assets/custom/PWA/bee.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "gcm_sender_id": "103953800507"
+}

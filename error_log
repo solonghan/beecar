@@ -1,0 +1,16 @@
+[30-Sep-2022 17:07:50 Asia/Taipei] PHP Parse error:  syntax error, unexpected end of file in /home2/anbon/public_html/beecar/application/views/mgr/items/friends_item.php on line 48
+[03-Oct-2022 07:27:11 UTC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in /home2/anbon/public_html/beecar/application/controllers/mgr/User.php on line 265
+[03-Oct-2022 07:28:38 UTC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in /home2/anbon/public_html/beecar/application/controllers/mgr/User.php on line 265
+[03-Oct-2022 07:30:03 UTC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in /home2/anbon/public_html/beecar/application/controllers/mgr/User.php on line 265
+[03-Oct-2022 07:31:11 UTC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in /home2/anbon/public_html/beecar/application/controllers/mgr/User.php on line 265
+[03-Oct-2022 07:31:12 UTC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in /home2/anbon/public_html/beecar/application/controllers/mgr/User.php on line 265
+[03-Oct-2022 07:31:19 UTC] PHP Parse error:  syntax error, unexpected 'list' (T_LIST), expecting identifier (T_STRING) in /home2/anbon/public_html/beecar/application/controllers/mgr/User.php on line 265
+[06-Oct-2022 10:26:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/anbon/public_html/beecar/application/controllers/mgr/Notification.php on line 331
+[06-Oct-2022 10:26:32 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/anbon/public_html/beecar/application/controllers/mgr/Notification.php on line 331
+[06-Oct-2022 10:26:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/anbon/public_html/beecar/application/controllers/mgr/Notification.php on line 331
+[12-Oct-2022 11:25:49 Asia/Taipei] PHP Fatal error:  Cannot use [] for unsetting in /home2/anbon/public_html/beecar/application/models/Order_model.php on line 1168
+[12-Oct-2022 11:25:49 Asia/Taipei] PHP Fatal error:  Cannot use [] for unsetting in /home2/anbon/public_html/beecar/application/models/Order_model.php on line 1168
+[12-Oct-2022 11:26:21 Asia/Taipei] PHP Fatal error:  Cannot use [] for unsetting in /home2/anbon/public_html/beecar/application/models/Order_model.php on line 1168
+[12-Oct-2022 11:26:21 Asia/Taipei] PHP Fatal error:  Cannot use [] for unsetting in /home2/anbon/public_html/beecar/application/models/Order_model.php on line 1168
+[12-Oct-2022 11:26:21 Asia/Taipei] PHP Fatal error:  Cannot use [] for unsetting in /home2/anbon/public_html/beecar/application/models/Order_model.php on line 1168
+[12-Oct-2022 11:26:21 Asia/Taipei] PHP Fatal error:  Cannot use [] for unsetting in /home2/anbon/public_html/beecar/application/models/Order_model.php on line 1168

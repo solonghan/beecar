@@ -1,0 +1,66 @@
+// font-size
+@each $key, $value in $font-sizes {
+    .fs-#{$key} {
+        font-size: $value;
+    }
+}
+
+//font-weight
+@each $key, $value in $font-weight {
+    .fw-#{$key} {
+        font-weight: $value;
+    }
+}
+
+@each $key, $value in $color {
+    .text-#{$key} {
+        color:$value;
+    }
+    .bg-#{$key} {
+        background: $value;
+    }
+    .#{$key} {
+        color: $value;
+    }
+}
+
+//text-align
+@each $key, $value in $text-align {
+    .text-#{$key} {
+        text-align: $value;
+    }
+}
+
+@for $i from 6 through 10 {
+    .p-#{$i} {
+        padding: $spacer * $i;
+    }
+    .pt-#{$i} {
+        padding-top: $spacer * $i;
+    }
+    .pb-#{$i} {
+        padding-bottom: $spacer * $i;
+    }
+    .pr-#{$i} {
+        padding-right: $spacer * $i;
+    }
+    .pl-#{$i} {
+        padding-left: $spacer * $i;
+    }
+    .m-#{$i} {
+        margin: $spacer * $i;
+    }
+    .mt-#{$i} {
+        margin-top: $spacer * $i;
+    }
+    .mb-#{$i} {
+        margin-bottom: $spacer * $i;
+    }
+    .mr-#{$i} {
+        margin-right: $spacer * $i;
+    }
+    .ml-#{$i} {
+        margin-left: $spacer * $i;
+    }
+
+}
