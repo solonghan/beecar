@@ -285,6 +285,7 @@ class Filter_model extends Base_Model {
 	{
 		$syntax = "S.is_delete = 0";
 		$syntax .= " AND (S.user_id = $user_id)";
+		$syntax .= " ORDER BY S.start_date ASC,S.start_time ASC";
 
 		$list = $this->db->select("S.*")
 			->from($this->super_filter_table . " S")
@@ -316,6 +317,17 @@ class Filter_model extends Base_Model {
 			return TRUE;
 		} else {
 			return FALSE;
+		}
+	}
+	//2023 11 21 判斷新增是否達上限
+	public function check_super_num($user_id){
+		$str="select * from super_filter where user_id=$user_id";
+		$res=$this->db->query($str)->result_array();
+
+		if(count($res)>=10){
+			return false;
+		}else{
+			return true;
 		}
 	}
 

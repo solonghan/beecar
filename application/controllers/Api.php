@@ -147,7 +147,13 @@ class Api extends Base_Controller{
 			'end'   		 => (isset($end_addr)) ? serialize($end_addr) : "",
 		];		
 
-		$res = 	$this->Filter_model->add_super_filter($data);
+		//2023 11 21 判斷是否可新增
+		$res_num = 	$this->Filter_model->check_super_num($user['id']);
+		if($res_num){
+			$res = 	$this->Filter_model->add_super_filter($data);
+		}else{
+			$this->output(false, "新增失敗，搜尋條件已達10組上限");
+		}
 
 		if ($res) {
 			$this->output(TRUE, "新增成功");

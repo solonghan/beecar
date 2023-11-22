@@ -1664,13 +1664,10 @@ $j=0;
 
 			$sender = $this->User_model->get_data($l['order_owner']);
 			
-			// print 123;
-			// echo $sender;exit;
-			// print_r($sender);exit;
-			// print_r($sender['username']);exit;
+			
 			$list[$i]['sender_name'] = (isset($sender['username']))? $sender['username']:'';
 			// $list[$i]['sender_name'] = $sender['username'];
-			// print_r($sender);exit;
+			
 		
 
 			if ($l['order_middle'] != 0) {
@@ -1736,6 +1733,18 @@ $j=0;
 			if ($l['order_middle'] != 0) {
 				$sender = $this->User_model->get_data($l['order_middle']);
 				$super_list[$i]['sender_name'] = $sender['username'];
+			}
+
+			$super_list[$i]['final_status']=$l['final_status'];
+			$super_list[$i]['price']=$l['price'];
+			$super_list[$i]['final_payment']=$l['final_payment'];
+			
+			if($super_list[$i]['final_status']==0){
+				$super_list[$i]['price']=$super_list[$i]['price']-$super_list[$i]['final_payment'];
+				// print $list[$i]['price'];exit;
+			}else{
+				$super_list[$i]['price']=$super_list[$i]['price']+$super_list[$i]['final_payment'];
+				// print $final_payment;exit;
 			}
 
 
